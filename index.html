@@ -2,12 +2,13 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="style/reset.css">
-    <link rel="stylesheet" href="style/style.css">
-    <link rel="stylesheet" href="style/font.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC&family=Roboto:wght@300;500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC&family=El+Messiri&family=Roboto:wght@300;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style/reset.css">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/media.css">
+    <link rel="stylesheet" href="style/font.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ермаков Максим 221-326</title>
 </head>
@@ -15,6 +16,15 @@
     <div class="wrapper">
         <header class="header_first">
             <img src="img/logo.svg" alt="">
+            <nav class="navbar">
+                <ul>
+                    <li><a href="" class="link">Масло</a></li>
+                    <li><a href="" class="link">О нас</a></li>
+                    <li><a href="" class="link">Отзывы</a></li>
+                    <li><a href="" class="link">Оплата и доставка</a></li>
+                    <li><a href="" class="link">Контакты</a></li>
+                </ul>
+            </nav>
             <div class="menu_btns">
                 <img src="img/carbon_menu.svg" alt="">
                 <img src="img/shopping-basket.svg" alt="">
@@ -26,21 +36,22 @@
                 <h2 class="sr-only">proguct catalogue</h2>
                 <div class="good">
                     <img src="img/good.png" alt="">
-                    <h3 class="good_name">Масло "Для салата"</h3>
-                    <p class="good_description">
+                    <div class="information_wrap">
+                        <h3 class="good_name">Масло "Для салата"</h3>
+                        <p class="good_description">
                         Название говорит само за себя. Это идеальная заправка, 
                         которая даже скучной и привычной капусте придаст неповторимый вкус и аромат. 
-                    </p>
-                    <div class="btns_count">
-                        <button>-</button>
-                        <span class="salat_color font_size_2p4rem">2</span>
-                        <button>+</button>
+                        </p>
+                        <div class="btns_count">
+                            <button>-</button>
+                            <span class="salat_color font_size_2p4rem">2</span>
+                            <button>+</button>
+                        </div>
+                        <div class="btns_buy">
+                            <button class="btn_select">Подробнее</button>
+                            <button class="btn_select">В корзину</button>
+                        </div>
                     </div>
-                    <div class="btns_buy">
-                        <button class="btn_select">Подробнее</button>
-                        <button class="btn_select">В корзину</button>
-                    </div>
-
                 </div>
             </section>
         </main>

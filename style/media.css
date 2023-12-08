@@ -1,0 +1,23 @@
+@media (min-width: 1144px) {
+    .wrapper{
+        margin-top: 50px;
+    }
+    .navbar{
+        display: flex;
+        align-items: center;
+    }
+    .good{
+        display: flex;
+        align-items: center;
+    }
+    .information_wrap{
+        display: flex;
+        text-align: left;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .btns_buy{
+        display: flex;
+        column-gap: 20px;
+    }
+}

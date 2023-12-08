@@ -35,6 +35,9 @@ img{
 main{
     width: 100%;
 }
+a{
+    text-decoration: none;
+}
 button{
     background-color: transparent;
     text-decoration: none;
@@ -54,6 +57,20 @@ button{
     clip: rect(0 0 0 0);
     overflow: hidden;
   }
+.navbar{
+    display: none;
+    width: 50%;
+}
+.navbar ul{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.link{
+    color: var(--salat);
+    font-size: 1.8rem;
+    font-family: 'El Messiri', sans-serif;;
+}
 .product_list{
     display: flex;
     flex-direction: column;
