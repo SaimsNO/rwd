@@ -32,6 +32,10 @@ img{
     align-items: center;
     column-gap: 20px;
 }
+.menu_btns button{
+    display: flex;
+    align-items: center;
+}
 main{
     width: 100%;
 }
