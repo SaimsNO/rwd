@@ -10,3 +10,10 @@
     font-weight: 300;
     color: var(--text-color);
 }
+
+.salat_color{
+    color: var(--salat);
+}
+.font_size_2p4rem{
+    font-size: 2.4rem;
+}

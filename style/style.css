@@ -5,10 +5,16 @@ html {
 *, *:before, *:after {
     box-sizing: inherit;
 }
-
+body{
+    font-family: 'Roboto', sans-serif;
+}
 :root {
     --text-color: #4A4A4A;
     --salat: #688800;
+    --grey: #949494;
+}
+img{
+    max-width: 100%;
 }
 .wrapper{
     max-width: 1170px;
@@ -20,6 +26,21 @@ html {
 .header_first{
     display: flex;
     justify-content: space-between;
+}
+.menu_btns{
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+}
+main{
+    width: 100%;
+}
+button{
+    background-color: transparent;
+    text-decoration: none;
+    border: 0;
+    padding-block: 0px;
+    padding-inline: 0px;
 }
 .sr-only {
     position: absolute;
@@ -33,3 +54,44 @@ html {
     clip: rect(0 0 0 0);
     overflow: hidden;
   }
+.product_list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.btns_count{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 20px;
+    margin: 20px 0;
+}
+.good{
+    text-align: center;
+}
+.good h3{
+    margin-bottom: 10px;
+}
+.btns_count button{
+    width: 32px;
+    height: 32px;
+    flex-shrink: 0;
+    border: 1px solid var(--grey);
+    border-radius: 8px;
+}
+
+.btns_buy button:nth-of-type(1){
+    margin-bottom: 20px;
+}
+
+.btn_select{
+    flex-shrink: 0;
+    border: 1px solid var(--salat);
+    height: 48px;
+    border-radius: 50px;
+    font-size: 1.8rem;
+    color: var(--salat);
+    width: 100%;
+    font-weight: bold;
+}
