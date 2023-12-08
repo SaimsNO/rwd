@@ -1,0 +1,12 @@
+.good_name{
+    font-family: 'Amatic SC', sans-serif;
+    font-size: 3.6rem;
+    font-weight: 400;
+    color: var(--text-color);
+}
+.good_description{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.6rem;
+    font-weight: 300;
+    color: var(--text-color);
+}
